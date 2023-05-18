@@ -1,0 +1,82 @@
+.primary-Header {
+  height: 4.5rem;
+  padding: 1rem;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+
+
+.primary-Header ul li {
+  display: inline-block;
+  margin: .70rem 2rem 0px 0px;
+  
+}
+
+.primary-Header ul li a {
+  display: inline-block;
+  height: 1.25em;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.25rem;
+}
+
+.primary-Header_inner {
+  height: 4.35rem;
+  display: flex;
+  justify-content: space-between;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #222222;
+}
+
+.company-Logo-Container {
+  background-color: #18191B;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.company-Logo {
+  scale: 65%;
+  filter: brightness(150%);
+}
+
+
+.welcome-Section {
+  min-width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+}
+
+.nav-list {
+  margin-right: 50rem;
+  height: 3rem;
+}
+
+.D4-Welcome-Logo {
+  position: absolute;
+  scale: 65%;
+  margin-bottom: 33rem;
+  filter: contrast(125%);
+}
+
+.diabloIV-logo {
+  scale: 70%;
+}
+
+.welcome-Video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.server-Slam {
+  min-width: 100%;
+  height: 8rem;
+}
+
+
