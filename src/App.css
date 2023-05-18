@@ -6,20 +6,58 @@
   position: sticky;
 }
 
+.nav-List {
+  height: 3.5rem;
+  margin: .5rem 10rem 0px 0px;
+}
 
+.nav-Account {
+  height: 3.5rem;
+  width: 26rem;
+  margin: .5rem 1.5rem 0px 0px;
+}
+
+.nav-Account li {
+  border-radius: 15px;
+  height: 2.25rem;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.nav-Account li:hover {
+  background-color: #18191B;
+}
+
+.pre-Purchase-Button {
+  background-color: #A50905;
+  width: 10rem;
+  border-radius: 10px;
+}
+
+.pre-Purchase-Button:hover {
+  background-color: #DD0707;
+}
 
 .primary-Header ul li {
   display: inline-block;
-  margin: .70rem 2rem 0px 0px;
-  
+  text-align: center;
+  margin: .5rem 2rem 0px 0px;
+  width: 8rem;
+  border-radius: 15px;
+}
+
+.primary-Header ul li:hover {
+  background-color: #333333;
+  color: rgb(255, 255, 255);
 }
 
 .primary-Header ul li a {
   display: inline-block;
-  height: 1.25em;
+  height: 2em;
   text-decoration: none;
   color: aliceblue;
   font-size: 1.25rem;
+  padding: px;
 }
 
 .primary-Header_inner {
@@ -52,9 +90,9 @@
   place-items: center;
 }
 
-.nav-list {
-  margin-right: 50rem;
-  height: 3rem;
+.welcome-Video {
+  max-width: 100%;
+  height: auto;
 }
 
 .D4-Welcome-Logo {
@@ -68,10 +106,7 @@
   scale: 70%;
 }
 
-.welcome-Video {
-  max-width: 100%;
-  height: auto;
-}
+
 
 
 .server-Slam {
