@@ -6,9 +6,9 @@ const Header = () => {
         <div className='navbar'>
             <div className='primary-Header_inner'>
                 <div class='company-Logo-Container'>
-                <img class='company-Logo' src='public/DiabloImg/LHRYDNJ5UI2FD.info/Company Logo.png' alt="company-Logo" />
+                <img class='company-Logo' src='/DiabloImg/LHRYDNJ5UI2FD.info/Company-Logo.png' alt="company-Logo" />
                 </div>
-                <img class='diabloIV-logo' src='./public/DiabloImg/Misc/diablo-IV-nav-logo.webp' alt="diablo4-nav-Logo" />
+                <img class='diabloIV-logo' src='/DiabloImg/Misc/diablo-IV-nav-logo.webp' alt="diablo4-nav-Logo" />
                 <ul className='nav-List'>
                   <li><a href="#">Overview</a></li>
                   <li><a href="#">Classes</a></li>
@@ -16,6 +16,7 @@ const Header = () => {
                   <li><a href="#">Story</a></li>
                   <li><a href="#">News</a></li>
                   <li><a href="#">Forums</a></li>
+                  <li className='gear-Nav-Button'><a href="#">...</a></li>
                 </ul>
                 <ul className='nav-Account'>
                   <li><a href="#">Account</a></li>
