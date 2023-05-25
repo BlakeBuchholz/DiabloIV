@@ -1,16 +1,14 @@
-import React from 'react'
-
+import React from 'react';
 
 const Welcome = () => {
   return (
     <section className='welcome-Section'>
         <video className='welcome-Video'>
-            <source src='./public/DiabloImg/Misc/d4welcomebg.mp4' type='video/mp4'/>
+        <source src="\DiabloImg\Misc\d4-Welcome-BG.mp4" type="video/MP4" autoplay loop muted
+        />
+        Sorry, your browser doesn't support videos.
         </video>
         <img class="D4-Welcome-Logo" src="public/DiabloImg/Misc/d4-Welcome-Logo.webp" alt="" />
-    <div className='server-Slam'>
-        {/* <img className='leather-Background' src="./public/DiabloImg/Leathertexture/leather-texture_800.webp" alt="leather-Background" /> */}
-    </div>
     </section>
   )
 }
