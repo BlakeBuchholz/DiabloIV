@@ -1,9 +1,14 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .primary-Header {
   height: 4.5rem;
   padding: 1rem;
-  top: 0;
-  position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 .nav-List {
@@ -16,6 +21,8 @@
   width: 26rem;
   margin: .5rem 1.5rem 0px 0px;
 }
+
+
 
 .nav-Account li {
   border-radius: 15px;
@@ -76,14 +83,14 @@
 }
 
 .company-Logo {
-  scale: 65%;
-  filter: brightness(150%);
+  scale: 55%;
+  filter: brightness(120%);
 }
 
 
 .welcome-Section {
   min-width: 100%;
-  height: auto;
+  height: 80rem;
   position: absolute;
   z-index: -1;
   display: grid;
@@ -92,13 +99,13 @@
 
 .welcome-Video {
   max-width: 100%;
-  height: auto;
+ 
 }
 
 .D4-Welcome-Logo {
   position: absolute;
   scale: 65%;
-  margin-bottom: 33rem;
+  margin-bottom: 14rem;
   filter: contrast(125%);
 }
 
