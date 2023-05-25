@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header className='primary-Header'>
-        <div className='wrapper'>
+        <div className='navbar'>
             <div className='primary-Header_inner'>
                 <div class='company-Logo-Container'>
                 <img class='company-Logo' src='public/DiabloImg/LHRYDNJ5UI2FD.info/Company Logo.png' alt="company-Logo" />
