@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  width: 100%;
+  max-width: 100%;
 }
 
 .nav-List {
@@ -64,6 +64,7 @@
   width: 7rem;
   border-radius: 10px;
   margin-top: 0.5rem;
+  font-weight: 600;
 }
 
 .primary-Header ul li:hover {
@@ -130,17 +131,18 @@
   z-index: -1;
   display: flex;
   justify-content: center;
+  background-color: #242424;
 }
 
 .welcome-Video {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
 .D4-Welcome-Logo {
   position: absolute;
   scale: 65%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   filter: contrast(125%);
 }
 
