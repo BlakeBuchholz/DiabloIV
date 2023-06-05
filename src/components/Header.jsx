@@ -11,11 +11,11 @@ const Header = () => {
                 <img class='diabloIV-logo' src='/DiabloImg/Misc/diablo-IV-nav-logo.webp' alt="diablo4-nav-Logo" />
                 <ul className='nav-List'>
                   <li><a href="#">Overview</a></li>
-                  <li><a href="#">Classes</a></li>
-                  <li><a href="#">World</a></li>
                   <li><a href="#">Story</a></li>
                   <li><a href="#">News</a></li>
-                  <li><a href="#">Forums</a></li>
+                  <li><a href="#">Classes</a></li>
+                  <li><a href="#">World</a></li>
+                  <li><a href="https://eu.forums.blizzard.com/en/d4/">Forums</a></li>
                   <li className='gear-Nav-Button'><a href="#">...</a></li>
                 </ul>
                 <ul className='nav-Account'>
