@@ -131,7 +131,6 @@
   z-index: -1;
   display: flex;
   justify-content: center;
-  background-color: #242424;
 }
 
 .welcome-Video {
@@ -157,9 +156,17 @@
 
 
 
-.server-Slam {
-  min-width: 100%;
-  height: 8rem;
+
+
+
+
+.purchase-Section {
+  display: flex;
+  justify-content: center;
+  padding-top: 30rem;
+  font-size: 1.5rem;
+  font-family: exocet, sans-serif;
+  font-style: normal;
 }
 
 
