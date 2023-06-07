@@ -10,8 +10,8 @@ const Welcome = () => {
         </video>
         <img className="D4-Welcome-Logo" src="DiabloImg/Misc/d4-Welcome-Logo.webp" alt="" />
       </section>
-      <div className='pre-Purchase'>
-        <h1>WELCOME TO HELL</h1>
+      <div className='purchase-Section'>
+        <h1 className=''>WELCOME TO HELL</h1>
       </div>
     </div>
   );
