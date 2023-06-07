@@ -4,7 +4,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,3 +16,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@font-face {font-family: "Exocet Reaper Medium";
+   src: url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.eot");
+    src: url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.eot?#iefix") format("embedded-opentype"),
+     url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.woff2") format("woff2"),
+      url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/e329334bdcba54d5a86210f994c23ecc.svg#Exocet Reaper Medium") format("svg"); }
