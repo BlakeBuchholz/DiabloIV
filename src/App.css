@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Exocet';
+  src: url(Exocet/Exocet.TTF);
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -161,12 +166,28 @@
 
 
 .purchase-Section {
-  display: flex;
-  justify-content: center;
-  padding-top: 30rem;
-  font-size: 1.5rem;
-  font-family: exocet, sans-serif;
+  padding-top: 25rem;  
+}
+
+.welcomeToHell {
+  font-family: 'Exocet Reaper Medium', sans-serif;
+  font-size: 3rem;
   font-style: normal;
+  letter-spacing: -.4rem;
+  color: #D2C8AE;
+  text-align: center;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.589);
+  margin-bottom: 0;
+}
+
+.welcomeToHellContent {
+  font-size: 1.35rem;
+  font-style: normal;
+  color: #a3a2a0;
+  text-align: center;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.712);
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 
