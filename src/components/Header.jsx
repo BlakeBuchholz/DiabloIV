@@ -20,7 +20,7 @@ const Header = () => {
                 </ul>
                 <ul className='nav-Account'>
                   <li><a href="#">Account</a></li>
-                  <li><a className='pre-Purchase-Button' href="#">Pre-Purchase</a></li>
+                  <li><a className='purchase-Button' href="#">Buy Now</a></li>
                 </ul>
             </div>
         </div>
