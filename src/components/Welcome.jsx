@@ -14,6 +14,20 @@ const Welcome = () => {
         <h1 className='welcomeToHell'>WELCOME TO HELL</h1>
         <h2 className='welcomeToHellContent'>THE GATES OF HELL HAVE OPENED, DIABLO IV IS NOW AVAILABLE</h2>
       </div>
+      <div className='cinematic-Container'>
+        <div className='cinematic-Trailer'>
+        <img id="videoImgOverlay" src="https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/bltae590eaaef770d39/6466b4e17492f54a45038622/D4_Gampeplay-Launch-Trailer_Thumb_enUS.webp" alt="cinematicTrailer"></img>
+        <a href=""></a>
+        </div>
+        <div className='cinematic-Content'>
+          <h1>ABANDON ALL HOPE</h1>
+          <p>
+            The endless battle between the High Heavens and the Burning Hells rages on as chaos threatens to consume Sanctuary.
+            With ceaseless demons to slaughter, countless Abilities to master, nightmarish Dungeons, and Legendary loot,
+            this vast, open world brings the promise of adventure and devastation. Survive and conquer darkness – or succumb to the shadows.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
