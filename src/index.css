@@ -12,6 +12,11 @@
 
 }
 
+@font-face {
+  font-family: 'Exocet';
+  src: url(exocet/Exocet/Exocet.TTF);
+}
+
 body {
   margin: 0;
   padding: 0;
