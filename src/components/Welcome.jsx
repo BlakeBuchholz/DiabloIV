@@ -11,7 +11,8 @@ const Welcome = () => {
         <img className="D4-Welcome-Logo" src="DiabloImg/Misc/d4-Welcome-Logo.webp" alt="" />
       </section>
       <div className='purchase-Section'>
-        <h1 className=''>WELCOME TO HELL</h1>
+        <h1 className='welcomeToHell'>WELCOME TO HELL</h1>
+        <h2 className='welcomeToHellContent'>THE GATES OF HELL HAVE OPENED, DIABLO IV IS NOW AVAILABLE</h2>
       </div>
     </div>
   );
