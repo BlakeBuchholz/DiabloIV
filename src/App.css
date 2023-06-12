@@ -61,6 +61,7 @@
   padding: 1rem;
   position: fixed;
   top: 0;
+  backdrop-filter: blur(10px);
 }
 
 .primary-Header ul li {
@@ -69,7 +70,7 @@
   width: 7rem;
   border-radius: 10px;
   margin-top: 0.5rem;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 .primary-Header ul li:hover {
